@@ -66,6 +66,16 @@ h1 {
   margin-bottom: 3rem;
 }
 
+.story .tagline {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
 .story p {
   font-size: 1rem;
   color: var(--ink-soft);
@@ -75,6 +85,15 @@ h1 {
 
 .story p:last-child {
   margin-bottom: 0;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--creme-deep);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: var(--sepia);
 }
 
 /* Modes */
